@@ -17,7 +17,7 @@
     <div class="filebox bs3-primary preview-image">
 
       <label for="input_file">사진선택</label>
-      <input type="file" id="input_file" class="upload-hidden">
+      <input type="file" id="input_file" class="upload-hidden" accept="image/*">
     </div>
 
     <textarea name="" id="share" cols="35" rows="6" class="write_box" placeholder="소감문 작성" required></textarea>
@@ -30,7 +30,7 @@
 </body>
 
 
-<!-- file Contact - Jquery used Javascript file-->
+<!-- file Img upload - Jquery used Javascript file-->
 <script>
   $(document).ready(function () {
     var fileTarget = $('.filebox .upload-hidden');
@@ -79,6 +79,9 @@
       }
     });
   });
+
+  
+
 </script>
 
 </html>
